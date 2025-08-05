@@ -10,7 +10,7 @@ tarefas.append("Ler")
 tarefas.append("Treinar")
 
 print("Minhas tarefas:")
-# mostrar tarefas com foreach
+# percorre tarefas com for-each
 for t in tarefas:
     print(t)
 
@@ -19,5 +19,6 @@ tarefas[1] = "Mercado"  # altera tarefa na pos 1
 tarefas.remove("Estudar")  # remove tarefa
 
 print("\nTarefas finais:")
+# enumerate cria contador a partir de start=1
 for i, t in enumerate(tarefas, start=1):
     print(f"{i}. {t}")
